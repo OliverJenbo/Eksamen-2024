@@ -2,7 +2,7 @@ package dashboard.dto;
 
 public class AthleteDTO {
 
-    private Long id;
+    private int id;
     private String name;
     private String email;
     private boolean invited;
@@ -13,7 +13,7 @@ public class AthleteDTO {
     public AthleteDTO() {
     }
 
-    public AthleteDTO(Long id, String name, String email, boolean invited, boolean accepted, boolean checkedIn, String status) {
+    public AthleteDTO(int id, String name, String email, boolean invited, boolean accepted, boolean checkedIn, String status) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -25,11 +25,11 @@ public class AthleteDTO {
 
     // Getters and setters
 
-    public Long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
